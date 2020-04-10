@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:   Ecommerce Application Test </title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'> Ecommerce Application Test </h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 10 07:38:10 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>384 seconds (384563 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.STTA.testCases.TC_DataproviderDDT_002.LogIn_Test()'><b>LogIn_Test</b><br>Test class: com.STTA.testCases.TC_DataproviderDDT_002<br>Parameters: UserId1, Pass1</td>
+<td></td>
+<td>3</td>
+<td>com.STTA.testCases.TC_DataproviderDDT_002@1a407d53</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_DataproviderDDT_002.LogIn_Test()'><b>LogIn_Test</b><br>Test class: com.STTA.testCases.TC_DataproviderDDT_002<br>Parameters: UserId2, Pass2</td>
+<td></td>
+<td>1</td>
+<td>com.STTA.testCases.TC_DataproviderDDT_002@1a407d53</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_DataproviderDDT_002.LogIn_Test()'><b>LogIn_Test</b><br>Test class: com.STTA.testCases.TC_DataproviderDDT_002<br>Parameters: UserId3, Pass3</td>
+<td></td>
+<td>1</td>
+<td>com.STTA.testCases.TC_DataproviderDDT_002@1a407d53</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_DataproviderDDT_002.LogIn_Test()'><b>LogIn_Test</b><br>Test class: com.STTA.testCases.TC_DataproviderDDT_002<br>Parameters: UserId4, Pass4</td>
+<td></td>
+<td>1</td>
+<td>com.STTA.testCases.TC_DataproviderDDT_002@1a407d53</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_NavigationCommands_005.testBrowsercmds()'><b>testBrowsercmds</b><br>Test class: com.STTA.testCases.TC_NavigationCommands_005</td>
+<td></td>
+<td>10</td>
+<td>com.STTA.testCases.TC_NavigationCommands_005@21bcffb5</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_IEBrowserSampleTest_003.testCal()'><b>testCal</b><br>Test class: com.STTA.testCases.TC_IEBrowserSampleTest_003</td>
+<td></td>
+<td>4</td>
+<td>com.STTA.testCases.TC_IEBrowserSampleTest_003@3d8c7aca</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_CaptureScreenShot_008.testCaptureScreenshot()'><b>testCaptureScreenshot</b><br>Test class: com.STTA.testCases.TC_CaptureScreenShot_008</td>
+<td></td>
+<td>4</td>
+<td>com.STTA.testCases.TC_CaptureScreenShot_008@380fb434</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_HandleCheckbox_004.testCheckbox()'><b>testCheckbox</b><br>Test class: com.STTA.testCases.TC_HandleCheckbox_004</td>
+<td></td>
+<td>4</td>
+<td>com.STTA.testCases.TC_HandleCheckbox_004@5ebec15</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022.testDDTorParameterization()'><b>testDDTorParameterization</b><br>Test class: com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022</td>
+<td></td>
+<td>16</td>
+<td>com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022@26ba2a48</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007.testDiffBetClickAndSubmit()'><b>testDiffBetClickAndSubmit</b><br>Test class: com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007</td>
+<td></td>
+<td>5</td>
+<td>com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007@79698539</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015.testDiffBetFindElementAndFindElements()'><b>testDiffBetFindElementAndFindElements</b><br>Test class: com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015</td>
+<td></td>
+<td>5</td>
+<td>com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015@6b2fad11</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_DragAndDropElementByPixelXY_026.testDragAndDropElementByPixelXY()'><b>testDragAndDropElementByPixelXY</b><br>Test class: com.STTA.testCases.TC_DragAndDropElementByPixelXY_026</td>
+<td></td>
+<td>20</td>
+<td>com.STTA.testCases.TC_DragAndDropElementByPixelXY_026@5f2050f6</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_ExtractOrReadTableData_19.testExtractOrReadTableData()'><b>testExtractOrReadTableData</b><br>Test class: com.STTA.testCases.TC_ExtractOrReadTableData_19</td>
+<td></td>
+<td>3</td>
+<td>com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018.testExtractingAllTextFieldsFromWebPage()'><b>testExtractingAllTextFieldsFromWebPage</b><br>Test class: com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018</td>
+<td></td>
+<td>8</td>
+<td>com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009.testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu()'><b>testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu</b><br>Test class: com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009</td>
+<td></td>
+<td>3</td>
+<td>com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009@668bc3d5</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017.testGetOrExtractAllLinksFromWebPage()'><b>testGetOrExtractAllLinksFromWebPage</b><br>Test class: com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017</td>
+<td></td>
+<td>3</td>
+<td>com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017@2ed94a8b</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_HandleDynamicWebTable_020.testHandleDynamicWebTable()'><b>testHandleDynamicWebTable</b><br>Test class: com.STTA.testCases.TC_HandleDynamicWebTable_020</td>
+<td></td>
+<td>3</td>
+<td>com.STTA.testCases.TC_HandleDynamicWebTable_020@42d3bd8b</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_HandlingJSAlerts_012.testHandlingJSAlerts()'><b>testHandlingJSAlerts</b><br>Test class: com.STTA.testCases.TC_HandlingJSAlerts_012</td>
+<td></td>
+<td>14</td>
+<td>com.STTA.testCases.TC_HandlingJSAlerts_012@7a5d012c</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010.testHandlingMultipleBrowserWindows()'><b>testHandlingMultipleBrowserWindows</b><br>Test class: com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010</td>
+<td></td>
+<td>28</td>
+<td>com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010@3cda1055</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_HighlightElement_013.testHighlightElement()'><b>testHighlightElement</b><br>Test class: com.STTA.testCases.TC_HighlightElement_013</td>
+<td></td>
+<td>13</td>
+<td>com.STTA.testCases.TC_HighlightElement_013@3fb6a447</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018.testMethod()'><b>testMethod</b><br>Test class: com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018</td>
+<td></td>
+<td>0</td>
+<td>com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016.testObjectRepositoryUsingPropertiesFile()'><b>testObjectRepositoryUsingPropertiesFile</b><br>Test class: com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016</td>
+<td></td>
+<td>4</td>
+<td>com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016@73f792cf</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_ReadingFontProperties_014.testReadingFontProperties()'><b>testReadingFontProperties</b><br>Test class: com.STTA.testCases.TC_ReadingFontProperties_014</td>
+<td></td>
+<td>3</td>
+<td>com.STTA.testCases.TC_ReadingFontProperties_014@79b4d0f</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_DragAndDropAnElement_001.testdragAndDrop()'><b>testdragAndDrop</b><br>Test class: com.STTA.testCases.TC_DragAndDropAnElement_001</td>
+<td></td>
+<td>7</td>
+<td>com.STTA.testCases.TC_DragAndDropAnElement_001@3498ed</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_HandleCheckbox_004.testmethodone()'><b>testmethodone</b><br>Test class: com.STTA.testCases.TC_HandleCheckbox_004</td>
+<td></td>
+<td>1</td>
+<td>com.STTA.testCases.TC_HandleCheckbox_004@5ebec15</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_ExtractOrReadTableData_19.testmethodone()'><b>testmethodone</b><br>Test class: com.STTA.testCases.TC_ExtractOrReadTableData_19</td>
+<td></td>
+<td>1</td>
+<td>com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711</td></tr>
+</table><p>
+</body>
+</html>

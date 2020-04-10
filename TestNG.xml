@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SoftwareTestingTutorialsandAutomation">
+
+<listeners>
+<listener class-name="com.STTA.utilities.Reporting"/>
+</listeners>
+
+	
+	<test name=" Ecommerce Application Test ">
+	<!-- <parameter name="browser" value="firefox" />-->
+   <!-- <parameter name="browser" value="chrome" />-->
+      <!--    <parameter name="browser" value="ie" />-->
+            <parameter name="browser" value="edge" />
+        
+	
+		<classes>
+		
+		 		        <class name="com.STTA.testCases.TC_DragAndDropAnElement_001"/>
+		 		       
+			           <class name="com.STTA.testCases.TC_DataproviderDDT_002"/>
+			           
+			          <class name="com.STTA.testCases.TC_IEBrowserSampleTest_003"/>
+			          
+			           <class name="com.STTA.testCases.TC_HandleCheckbox_004"/>
+			           
+			          <class name="com.STTA.testCases.TC_NavigationCommands_005"/>
+			     
+			    
+			   
+			    <class name="com.STTA.testCases.TC_CaptureScreenShot_008"/> 
+			
+			   <class name="com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009"/>
+			   
+			 <class name ="com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010"/>
+		
+			  <class name ="com.STTA.testCases.TC_HandlingJSAlerts_012"/>
+			  
+			  <class name ="com.STTA.testCases.TC_HighlightElement_013"/>
+			  
+			<class name ="com.STTA.testCases.TC_ReadingFontProperties_014"/> 
+			 
+			 <class name ="com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015"/>
+			 
+			<class name="com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007"/>
+			
+			<class name ="com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016"/>
+			
+			<class name="com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017"/>
+			 
+			 <class name="com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018"/>
+			 
+			 <class name="com.STTA.testCases.TC_ExtractOrReadTableData_19"/>
+			 
+			 <class name="com.STTA.testCases.TC_HandleDynamicWebTable_020"/>
+			 
+			   
+			  
+			 <class name="com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022"/>
+			 
+			 <class name="com.STTA.testCases.TC_DragAndDropElementByPixelXY_026"/>
+			 
+			 
+			 
+			 
+			 
+			          
+			       <!--   <class name="com.STTA.testCases.TC_CheckBoxRadioButtonOperations_006"/>
+			          
+			      <class name="com.STTA.testCases.TC_HandleAjaxAutoSuggestDropList_021"/>
+			      
+			  <class name="com.STTA.testCases.TC_AssertEqualsTestNG_023"/>
+			 
+			 	<class name="com.STTA.testCases.TC_AssertTrueTestNG_024"/>
+			 	
+			 	<class name="com.STTA.testCases.TC_AssertNullTestNG_025"/> -->
+			 	
+			 		   
+			    	
+		</classes>
+</test>
+	
+</suite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- TestNg With Selenium WebDriver : Using Regular Expression To Include/Exclude Test Method From Execution -->
+
+<suite name="SoftwareTestingTutorialsandAutomation">
+
+<listeners>
+<listener class-name="com.STTA.utilities.Reporting"/>
+</listeners>
+
+	
+	<test name=" Ecommerce Application Test">
+	<parameter name="browser" value="chrome" />
+		
+		<classes>
+		
+		<class name="com.STTA.testCases.TC_HandleCheckbox_004">
+		
+		<methods>
+             <include name=".*one.*" />
+          </methods>
+          </class>
+          
+          <class name="com.STTA.testCases.TC_ExtractOrReadTableData_19">
+          
+          <methods>
+             <exclude name=".*one.*" />
+          </methods>
+          </class>
+			    	
+		</classes>
+		
+		
+
+	</test>
+
+</suite>

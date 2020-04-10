@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- Configure testng.xml In Eclipse For Selenium WebDriver To Run All Or Specific Package -->
+
+<suite name="SoftwareTestingTutorialsandAutomation">
+
+<listeners>
+<listener class-name="com.STTA.utilities.Reporting"/>
+</listeners>
+
+	
+	<test name=" Ecommerce Application Test">
+	<parameter name="browser" value="chrome" />
+		
+		 <packages>
+         <package name="com.STTA.testCases" />
+         </packages>
+
+	</test>
+
+</suite>

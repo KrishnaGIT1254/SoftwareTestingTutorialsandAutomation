@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- Include/Exclude Only Selected Test Methods In Selenium WebDriver-TestNg Test Suite Using testng.xml -->
+
+<suite name="SoftwareTestingTutorialsandAutomation">
+
+<listeners>
+<listener class-name="com.STTA.utilities.Reporting"/>
+</listeners>
+
+	
+	<test name=" Ecommerce Application Test">
+	<parameter name="browser" value="chrome" />
+		
+		<classes>
+		
+		<class name="com.STTA.testCases.TC_HandleCheckbox_004">
+		
+		<methods>
+             <include name="testmethodone" />
+          </methods>
+          </class>
+          
+          <class name="com.STTA.testCases.TC_ExtractOrReadTableData_19">
+          
+          <methods>
+             <exclude name="testmethodone" />
+          </methods>
+          </class>
+			    	
+		</classes>
+		
+		
+
+	</test>
+
+</suite>
