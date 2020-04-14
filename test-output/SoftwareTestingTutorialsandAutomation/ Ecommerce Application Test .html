@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'> Ecommerce Application Test </h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>25/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>25/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 10 13:49:57 IST 2020</td>
+<td>Started on:</td><td>Sun Apr 12 20:44:01 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>256 seconds (256758 ms)</td>
+<tr><td>Total time:</td><td>612 seconds (612639 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,67 +68,63 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010.testHandlingMultipleBrowserWindows()'><b>testHandlingMultipleBrowserWindows</b><br>Test class: com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010</td>
-<td><div><pre>org.openqa.selenium.InvalidSelectorException: The specified selector is invalid.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+<td title='com.STTA.testCases.TC_DragAndDropAnElement_001.setUp()'><b>setUp</b><br>Test class: com.STTA.testCases.TC_DragAndDropAnElement_001<br>Parameters: chrome</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;SYSTEM&apos;, ip: &apos;10.17.5.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 44.18362.449.0, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: C52A80BF-92F6-474B-9232-8B2ACAB68F65
-*** Element info: {Using=xpath, value=//input[@name=&apos;fname&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+System info: host: &apos;SYSTEM&apos;, ip: &apos;192.168.43.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010.testHandlingMultipleBrowserWindows(TC_HandlingMultipleBrowserWindows_010.java:56)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace61304908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace61304908'><pre>org.openqa.selenium.InvalidSelectorException: The specified selector is invalid.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.STTA.testCases.BaseClass.setUp(BaseClass.java:66)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17177/status] to be available after 20069 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 35 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 36 more
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1010670443", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1010670443'><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;SYSTEM&apos;, ip: &apos;10.17.5.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 44.18362.449.0, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: C52A80BF-92F6-474B-9232-8B2ACAB68F65
-*** Element info: {Using=xpath, value=//input[@name=&apos;fname&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+System info: host: &apos;SYSTEM&apos;, ip: &apos;192.168.43.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010.testHandlingMultipleBrowserWindows(TC_HandlingMultipleBrowserWindows_010.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.STTA.testCases.BaseClass.setUp(BaseClass.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
 	at org.testng.TestRunner.run(TestRunner.java:505)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
@@ -144,9 +140,31 @@ Session ID: C52A80BF-92F6-474B-9232-8B2ACAB68F65
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17177/status] to be available after 20069 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 35 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 36 more
 </pre></div></td>
-<td>7</td>
-<td>com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010@6fd02e5</td></tr>
+<td>27</td>
+<td>com.STTA.testCases.TC_DragAndDropAnElement_001@4cf777e8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.STTA.testCases.TC_DragAndDropAnElement_001.tearDown()'><b>tearDown</b><br>Test class: com.STTA.testCases.TC_DragAndDropAnElement_001</td>
+<td></td>
+<td>0</td>
+<td>com.STTA.testCases.TC_DragAndDropAnElement_001@4cf777e8</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -158,97 +176,102 @@ Session ID: C52A80BF-92F6-474B-9232-8B2ACAB68F65
 <tr>
 <td title='com.STTA.testCases.TC_DataproviderDDT_002.LogIn_Test()'><b>LogIn_Test</b><br>Test class: com.STTA.testCases.TC_DataproviderDDT_002<br>Parameters: UserId1, Pass1</td>
 <td></td>
-<td>4</td>
+<td>14</td>
 <td>com.STTA.testCases.TC_DataproviderDDT_002@2f686d1f</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_DataproviderDDT_002.LogIn_Test()'><b>LogIn_Test</b><br>Test class: com.STTA.testCases.TC_DataproviderDDT_002<br>Parameters: UserId2, Pass2</td>
 <td></td>
-<td>3</td>
+<td>6</td>
 <td>com.STTA.testCases.TC_DataproviderDDT_002@2f686d1f</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_DataproviderDDT_002.LogIn_Test()'><b>LogIn_Test</b><br>Test class: com.STTA.testCases.TC_DataproviderDDT_002<br>Parameters: UserId3, Pass3</td>
 <td></td>
-<td>4</td>
+<td>6</td>
 <td>com.STTA.testCases.TC_DataproviderDDT_002@2f686d1f</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_DataproviderDDT_002.LogIn_Test()'><b>LogIn_Test</b><br>Test class: com.STTA.testCases.TC_DataproviderDDT_002<br>Parameters: UserId4, Pass4</td>
 <td></td>
-<td>4</td>
+<td>6</td>
 <td>com.STTA.testCases.TC_DataproviderDDT_002@2f686d1f</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_NavigationCommands_005.testBrowsercmds()'><b>testBrowsercmds</b><br>Test class: com.STTA.testCases.TC_NavigationCommands_005</td>
 <td></td>
-<td>4</td>
+<td>21</td>
 <td>com.STTA.testCases.TC_NavigationCommands_005@7085bdee</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_IEBrowserSampleTest_003.testCal()'><b>testCal</b><br>Test class: com.STTA.testCases.TC_IEBrowserSampleTest_003</td>
 <td></td>
-<td>3</td>
+<td>6</td>
 <td>com.STTA.testCases.TC_IEBrowserSampleTest_003@3fee9989</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_CaptureScreenShot_008.testCaptureScreenshot()'><b>testCaptureScreenshot</b><br>Test class: com.STTA.testCases.TC_CaptureScreenShot_008</td>
 <td></td>
-<td>2</td>
+<td>4</td>
 <td>com.STTA.testCases.TC_CaptureScreenShot_008@1ce92674</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_HandleCheckbox_004.testCheckbox()'><b>testCheckbox</b><br>Test class: com.STTA.testCases.TC_HandleCheckbox_004</td>
 <td></td>
-<td>2</td>
+<td>4</td>
 <td>com.STTA.testCases.TC_HandleCheckbox_004@73ad2d6</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022.testDDTorParameterization()'><b>testDDTorParameterization</b><br>Test class: com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022</td>
 <td></td>
-<td>33</td>
+<td>23</td>
 <td>com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022@6e06451e</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007.testDiffBetClickAndSubmit()'><b>testDiffBetClickAndSubmit</b><br>Test class: com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007</td>
 <td></td>
-<td>5</td>
+<td>10</td>
 <td>com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007@3f49dace</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015.testDiffBetFindElementAndFindElements()'><b>testDiffBetFindElementAndFindElements</b><br>Test class: com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015</td>
 <td></td>
-<td>2</td>
+<td>5</td>
 <td>com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015@31a5c39e</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_DragAndDropElementByPixelXY_026.testDragAndDropElementByPixelXY()'><b>testDragAndDropElementByPixelXY</b><br>Test class: com.STTA.testCases.TC_DragAndDropElementByPixelXY_026</td>
 <td></td>
-<td>18</td>
+<td>24</td>
 <td>com.STTA.testCases.TC_DragAndDropElementByPixelXY_026@59494225</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_ExtractOrReadTableData_19.testExtractOrReadTableData()'><b>testExtractOrReadTableData</b><br>Test class: com.STTA.testCases.TC_ExtractOrReadTableData_19</td>
 <td></td>
-<td>5</td>
+<td>7</td>
 <td>com.STTA.testCases.TC_ExtractOrReadTableData_19@27c20538</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018.testExtractingAllTextFieldsFromWebPage()'><b>testExtractingAllTextFieldsFromWebPage</b><br>Test class: com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018</td>
 <td></td>
-<td>7</td>
+<td>8</td>
 <td>com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@56ac3a89</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009.testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu()'><b>testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu</b><br>Test class: com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009</td>
 <td></td>
-<td>2</td>
+<td>12</td>
 <td>com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009@5700d6b1</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017.testGetOrExtractAllLinksFromWebPage()'><b>testGetOrExtractAllLinksFromWebPage</b><br>Test class: com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017</td>
 <td></td>
-<td>2</td>
+<td>5</td>
 <td>com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017@490ab905</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_HandleDynamicWebTable_020.testHandleDynamicWebTable()'><b>testHandleDynamicWebTable</b><br>Test class: com.STTA.testCases.TC_HandleDynamicWebTable_020</td>
 <td></td>
-<td>4</td>
+<td>6</td>
 <td>com.STTA.testCases.TC_HandleDynamicWebTable_020@72d818d1</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_HandlingJSAlerts_012.testHandlingJSAlerts()'><b>testHandlingJSAlerts</b><br>Test class: com.STTA.testCases.TC_HandlingJSAlerts_012</td>
 <td></td>
-<td>11</td>
+<td>13</td>
 <td>com.STTA.testCases.TC_HandlingJSAlerts_012@5bcab519</td></tr>
+<tr>
+<td title='com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010.testHandlingMultipleBrowserWindows()'><b>testHandlingMultipleBrowserWindows</b><br>Test class: com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010</td>
+<td></td>
+<td>32</td>
+<td>com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010@6fd02e5</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_HighlightElement_013.testHighlightElement()'><b>testHighlightElement</b><br>Test class: com.STTA.testCases.TC_HighlightElement_013</td>
 <td></td>
-<td>12</td>
+<td>17</td>
 <td>com.STTA.testCases.TC_HighlightElement_013@e45f292</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018.testMethod()'><b>testMethod</b><br>Test class: com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018</td>
@@ -263,23 +286,104 @@ Session ID: C52A80BF-92F6-474B-9232-8B2ACAB68F65
 <tr>
 <td title='com.STTA.testCases.TC_ReadingFontProperties_014.testReadingFontProperties()'><b>testReadingFontProperties</b><br>Test class: com.STTA.testCases.TC_ReadingFontProperties_014</td>
 <td></td>
-<td>2</td>
+<td>5</td>
 <td>com.STTA.testCases.TC_ReadingFontProperties_014@5f2108b5</td></tr>
-<tr>
-<td title='com.STTA.testCases.TC_DragAndDropAnElement_001.testdragAndDrop()'><b>testdragAndDrop</b><br>Test class: com.STTA.testCases.TC_DragAndDropAnElement_001</td>
-<td></td>
-<td>9</td>
-<td>com.STTA.testCases.TC_DragAndDropAnElement_001@4cf777e8</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_HandleCheckbox_004.testmethodone()'><b>testmethodone</b><br>Test class: com.STTA.testCases.TC_HandleCheckbox_004</td>
 <td></td>
-<td>2</td>
+<td>3</td>
 <td>com.STTA.testCases.TC_HandleCheckbox_004@73ad2d6</td></tr>
 <tr>
 <td title='com.STTA.testCases.TC_ExtractOrReadTableData_19.testmethodone()'><b>testmethodone</b><br>Test class: com.STTA.testCases.TC_ExtractOrReadTableData_19</td>
 <td></td>
-<td>0</td>
+<td>3</td>
 <td>com.STTA.testCases.TC_ExtractOrReadTableData_19@27c20538</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.STTA.testCases.TC_DragAndDropAnElement_001.testdragAndDrop()'><b>testdragAndDrop</b><br>Test class: com.STTA.testCases.TC_DragAndDropAnElement_001</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SYSTEM&apos;, ip: &apos;192.168.43.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.STTA.testCases.BaseClass.setUp(BaseClass.java:66)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17177/status] to be available after 20069 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 35 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 36 more
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2053591126", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2053591126'><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SYSTEM&apos;, ip: &apos;192.168.43.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.STTA.testCases.BaseClass.setUp(BaseClass.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17177/status] to be available after 20069 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 35 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 36 more
+</pre></div></td>
+<td>0</td>
+<td>com.STTA.testCases.TC_DragAndDropAnElement_001@4cf777e8</td></tr>
 </table><p>
 </body>
 </html>

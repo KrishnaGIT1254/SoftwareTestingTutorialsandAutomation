@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SoftwareTestingTutorialsandAutomation]">
+  <listeners>
+    <listener class-name="com.STTA.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name=" Ecommerce Application Test (failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010">
+        <methods>
+          <include name="testHandlingMultipleBrowserWindows"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010 -->
+    </classes>
+  </test> <!--  Ecommerce Application Test (failed) -->
+</suite> <!-- Failed suite [SoftwareTestingTutorialsandAutomation] -->

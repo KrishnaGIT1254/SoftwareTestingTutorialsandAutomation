@@ -80,6 +80,7 @@ public class BaseClass {
 			System.out.println("Test Starts Running In InternetExplorer Browser.");
 			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\Drivers\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
+			driver.manage().window().maximize();
 			
 		}
 		
