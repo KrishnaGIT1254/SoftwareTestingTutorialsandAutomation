@@ -9,10 +9,12 @@
 
 	
 	<test name=" Ecommerce Application Test ">
-	<!--   <parameter name="browser" value="firefox" />-->
-   <!--   <parameter name="browser" value="chrome" />-->
-    <!--   <parameter name="browser" value="ie" />-->
-            <parameter name="browser" value="edge" />
+	
+	   <!--    <parameter name="browser" value="firefox" />-->
+          <parameter name="browser" value="chrome" />
+     <!--    <parameter name="browser" value="ie" />-->
+             <!--    <parameter name="browser" value="edge" />-->
+      <!--   <parameter name="browser" value="HTMLUnit" />-->
         
 	
 		<classes>
@@ -33,7 +35,7 @@
 			
 			   <class name="com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009"/>
 			   
-			<!--   <class name ="com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010"/>-->
+			  <class name ="com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010"/>
 		
 			  <class name ="com.STTA.testCases.TC_HandlingJSAlerts_012"/>
 			  

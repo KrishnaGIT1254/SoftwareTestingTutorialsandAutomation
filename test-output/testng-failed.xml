@@ -5,15 +5,15 @@
     <listener class-name="com.STTA.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name=" Ecommerce Application Test (failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.STTA.testCases.TC_DragAndDropAnElement_001">
+      <class name="com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010">
         <methods>
+          <include name="testHandlingMultipleBrowserWindows"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testdragAndDrop"/>
         </methods>
-      </class> <!-- com.STTA.testCases.TC_DragAndDropAnElement_001 -->
+      </class> <!-- com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010 -->
     </classes>
   </test> <!--  Ecommerce Application Test (failed) -->
 </suite> <!-- Failed suite [SoftwareTestingTutorialsandAutomation] -->

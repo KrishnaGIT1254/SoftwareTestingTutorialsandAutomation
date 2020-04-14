@@ -1,6 +1,7 @@
 package com.STTA.testCases;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -19,12 +20,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
+
 
 
 
@@ -61,7 +64,7 @@ public class BaseClass {
 		
 		if(br.equals("chrome"))
 		{
-			System.out.println("Test Starts Running In Chrome Browser.");
+			System.out.println("Test Starts Running in Chrome Browser.");
 		    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
 		    driver = new ChromeDriver(); 
 		
@@ -70,14 +73,14 @@ public class BaseClass {
 		}
 		else if(br.equals("firefox"))
 		{
-			System.out.println("Test Starts Running In Firefox Browser.");
+			System.out.println("Test Starts Running in Firefox Browser.");
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			
 		}
 		else if(br.equals("ie"))
 		{
-			System.out.println("Test Starts Running In InternetExplorer Browser.");
+			System.out.println("Test Starts Running in InternetExplorer Browser.");
 			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\Drivers\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 			driver.manage().window().maximize();
@@ -86,12 +89,18 @@ public class BaseClass {
 		
 		else if(br.equals("edge"))
 		{
-			System.out.println("Test Starts Running In MicrosoftEdge Browser.");
+			System.out.println("Test Starts Running in MicrosoftEdge Browser.");
 			//System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\Drivers\\MicrosoftWebDriver.exe");
 			driver = new EdgeDriver();
 			
 		}
 		
+		else if(br.equals("HTMLUnit"))
+		{
+			System.out.println("Test Starts Running in HTMLUnit Headless Browser.");
+		   // driver = new HtmlUnitDriver();
+			
+		}
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 
