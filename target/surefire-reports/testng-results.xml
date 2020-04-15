@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="26" passed="26">
   <reporter-output>
   </reporter-output>
-  <suite name="SoftwareTestingTutorialsandAutomation" duration-ms="615028" started-at="2020-04-14T19:31:20Z" finished-at="2020-04-14T19:41:35Z">
+  <suite name="SoftwareTestingTutorialsandAutomation" duration-ms="529601" started-at="2020-04-15T17:18:25Z" finished-at="2020-04-15T17:27:15Z">
     <groups>
     </groups>
-    <test name=" Ecommerce Application Test " duration-ms="615028" started-at="2020-04-14T19:31:20Z" finished-at="2020-04-14T19:41:35Z">
+    <test name=" Ecommerce Application Test " duration-ms="529601" started-at="2020-04-15T17:18:25Z" finished-at="2020-04-15T17:27:15Z">
       <class name="com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017@2ed94a8b]" name="setUp" is-config="true" duration-ms="9342" started-at="2020-04-14T19:38:47Z" finished-at="2020-04-14T19:38:56Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017@2ed94a8b]" name="setUp" is-config="true" duration-ms="10421" started-at="2020-04-15T17:24:19Z" finished-at="2020-04-15T17:24:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGetOrExtractAllLinksFromWebPage()[pri:0, instance:com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017@2ed94a8b]" name="testGetOrExtractAllLinksFromWebPage" duration-ms="7818" started-at="2020-04-14T19:38:56Z" finished-at="2020-04-14T19:39:04Z">
+        <test-method status="PASS" signature="testGetOrExtractAllLinksFromWebPage()[pri:0, instance:com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017@2ed94a8b]" name="testGetOrExtractAllLinksFromWebPage" duration-ms="4859" started-at="2020-04-15T17:24:29Z" finished-at="2020-04-15T17:24:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetOrExtractAllLinksFromWebPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017@2ed94a8b]" name="tearDown" is-config="true" duration-ms="2911" started-at="2020-04-14T19:39:04Z" finished-at="2020-04-14T19:39:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017@2ed94a8b]" name="tearDown" is-config="true" duration-ms="729" started-at="2020-04-15T17:24:34Z" finished-at="2020-04-15T17:24:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017 -->
       <class name="com.STTA.testCases.TC_DataproviderDDT_002">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="setUp" is-config="true" duration-ms="13226" started-at="2020-04-14T19:33:15Z" finished-at="2020-04-14T19:33:28Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="setUp" is-config="true" duration-ms="11941" started-at="2020-04-15T17:19:05Z" finished-at="2020-04-15T17:19:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LogIn_Test(java.lang.String, java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="LogIn_Test" duration-ms="9431" started-at="2020-04-14T19:33:28Z" data-provider="LoginCredentials" finished-at="2020-04-14T19:33:37Z">
+        <test-method status="PASS" signature="LogIn_Test(java.lang.String, java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="LogIn_Test" duration-ms="7218" started-at="2020-04-15T17:19:17Z" data-provider="LoginCredentials" finished-at="2020-04-15T17:19:24Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogIn_Test -->
-        <test-method status="PASS" signature="LogIn_Test(java.lang.String, java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="LogIn_Test" duration-ms="4719" started-at="2020-04-14T19:33:37Z" data-provider="LoginCredentials" finished-at="2020-04-14T19:33:42Z">
+        <test-method status="PASS" signature="LogIn_Test(java.lang.String, java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="LogIn_Test" duration-ms="5243" started-at="2020-04-15T17:19:24Z" data-provider="LoginCredentials" finished-at="2020-04-15T17:19:29Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogIn_Test -->
-        <test-method status="PASS" signature="LogIn_Test(java.lang.String, java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="LogIn_Test" duration-ms="2057" started-at="2020-04-14T19:33:42Z" data-provider="LoginCredentials" finished-at="2020-04-14T19:33:44Z">
+        <test-method status="PASS" signature="LogIn_Test(java.lang.String, java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="LogIn_Test" duration-ms="5317" started-at="2020-04-15T17:19:29Z" data-provider="LoginCredentials" finished-at="2020-04-15T17:19:34Z">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogIn_Test -->
-        <test-method status="PASS" signature="LogIn_Test(java.lang.String, java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="LogIn_Test" duration-ms="1872" started-at="2020-04-14T19:33:44Z" data-provider="LoginCredentials" finished-at="2020-04-14T19:33:46Z">
+        <test-method status="PASS" signature="LogIn_Test(java.lang.String, java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="LogIn_Test" duration-ms="5134" started-at="2020-04-15T17:19:34Z" data-provider="LoginCredentials" finished-at="2020-04-15T17:19:39Z">
           <params>
             <param index="0">
               <value>
@@ -103,401 +103,401 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogIn_Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="tearDown" is-config="true" duration-ms="4210" started-at="2020-04-14T19:33:46Z" finished-at="2020-04-14T19:33:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DataproviderDDT_002@1a407d53]" name="tearDown" is-config="true" duration-ms="794" started-at="2020-04-15T17:19:39Z" finished-at="2020-04-15T17:19:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_DataproviderDDT_002 -->
       <class name="com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016@73f792cf]" name="setUp" is-config="true" duration-ms="9035" started-at="2020-04-14T19:38:28Z" finished-at="2020-04-14T19:38:37Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016@73f792cf]" name="setUp" is-config="true" duration-ms="11020" started-at="2020-04-15T17:24:03Z" finished-at="2020-04-15T17:24:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testObjectRepositoryUsingPropertiesFile()[pri:0, instance:com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016@73f792cf]" name="testObjectRepositoryUsingPropertiesFile" duration-ms="7401" started-at="2020-04-14T19:38:37Z" finished-at="2020-04-14T19:38:44Z">
+        <test-method status="PASS" signature="testObjectRepositoryUsingPropertiesFile()[pri:0, instance:com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016@73f792cf]" name="testObjectRepositoryUsingPropertiesFile" duration-ms="4191" started-at="2020-04-15T17:24:14Z" finished-at="2020-04-15T17:24:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testObjectRepositoryUsingPropertiesFile -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016@73f792cf]" name="tearDown" is-config="true" duration-ms="2629" started-at="2020-04-14T19:38:44Z" finished-at="2020-04-14T19:38:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016@73f792cf]" name="tearDown" is-config="true" duration-ms="722" started-at="2020-04-15T17:24:18Z" finished-at="2020-04-15T17:24:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016 -->
       <class name="com.STTA.testCases.TC_ExtractOrReadTableData_19">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711]" name="setUp" is-config="true" duration-ms="8427" started-at="2020-04-14T19:39:25Z" finished-at="2020-04-14T19:39:34Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711]" name="setUp" is-config="true" duration-ms="10197" started-at="2020-04-15T17:24:53Z" finished-at="2020-04-15T17:25:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testExtractOrReadTableData()[pri:0, instance:com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711]" name="testExtractOrReadTableData" duration-ms="7793" started-at="2020-04-14T19:39:34Z" finished-at="2020-04-14T19:39:42Z">
+        <test-method status="PASS" signature="testExtractOrReadTableData()[pri:0, instance:com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711]" name="testExtractOrReadTableData" duration-ms="4694" started-at="2020-04-15T17:25:04Z" finished-at="2020-04-15T17:25:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExtractOrReadTableData -->
-        <test-method status="PASS" signature="testmethodone()[pri:0, instance:com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711]" name="testmethodone" duration-ms="1856" started-at="2020-04-14T19:39:42Z" finished-at="2020-04-14T19:39:43Z">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711]" name="testmethodone" duration-ms="3637" started-at="2020-04-15T17:25:08Z" finished-at="2020-04-15T17:25:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testmethodone -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711]" name="tearDown" is-config="true" duration-ms="5158" started-at="2020-04-14T19:39:43Z" finished-at="2020-04-14T19:39:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ExtractOrReadTableData_19@dfd3711]" name="tearDown" is-config="true" duration-ms="703" started-at="2020-04-15T17:25:12Z" finished-at="2020-04-15T17:25:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_ExtractOrReadTableData_19 -->
       <class name="com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010@3cda1055]" name="setUp" is-config="true" duration-ms="12292" started-at="2020-04-14T19:35:51Z" finished-at="2020-04-14T19:36:04Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010@3cda1055]" name="setUp" is-config="true" duration-ms="11174" started-at="2020-04-15T17:21:34Z" finished-at="2020-04-15T17:21:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testHandlingMultipleBrowserWindows()[pri:0, instance:com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010@3cda1055]" name="testHandlingMultipleBrowserWindows" duration-ms="33435" started-at="2020-04-14T19:36:04Z" finished-at="2020-04-14T19:36:37Z">
+        <test-method status="PASS" signature="testHandlingMultipleBrowserWindows()[pri:0, instance:com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010@3cda1055]" name="testHandlingMultipleBrowserWindows" duration-ms="30566" started-at="2020-04-15T17:21:45Z" finished-at="2020-04-15T17:22:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHandlingMultipleBrowserWindows -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010@3cda1055]" name="tearDown" is-config="true" duration-ms="3116" started-at="2020-04-14T19:36:37Z" finished-at="2020-04-14T19:36:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010@3cda1055]" name="tearDown" is-config="true" duration-ms="1216" started-at="2020-04-15T17:22:16Z" finished-at="2020-04-15T17:22:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010 -->
       <class name="com.STTA.testCases.TC_CaptureScreenShot_008">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_CaptureScreenShot_008@380fb434]" name="setUp" is-config="true" duration-ms="11552" started-at="2020-04-14T19:35:08Z" finished-at="2020-04-14T19:35:20Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_CaptureScreenShot_008@380fb434]" name="setUp" is-config="true" duration-ms="15472" started-at="2020-04-15T17:20:53Z" finished-at="2020-04-15T17:21:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCaptureScreenshot()[pri:0, instance:com.STTA.testCases.TC_CaptureScreenShot_008@380fb434]" name="testCaptureScreenshot" duration-ms="5870" started-at="2020-04-14T19:35:20Z" finished-at="2020-04-14T19:35:25Z">
+        <test-method status="PASS" signature="testCaptureScreenshot()[pri:0, instance:com.STTA.testCases.TC_CaptureScreenShot_008@380fb434]" name="testCaptureScreenshot" duration-ms="4694" started-at="2020-04-15T17:21:08Z" finished-at="2020-04-15T17:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaptureScreenshot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_CaptureScreenShot_008@380fb434]" name="tearDown" is-config="true" duration-ms="2054" started-at="2020-04-14T19:35:25Z" finished-at="2020-04-14T19:35:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_CaptureScreenShot_008@380fb434]" name="tearDown" is-config="true" duration-ms="722" started-at="2020-04-15T17:21:13Z" finished-at="2020-04-15T17:21:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_CaptureScreenShot_008 -->
       <class name="com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009@668bc3d5]" name="setUp" is-config="true" duration-ms="11448" started-at="2020-04-14T19:35:28Z" finished-at="2020-04-14T19:35:39Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009@668bc3d5]" name="setUp" is-config="true" duration-ms="10079" started-at="2020-04-15T17:21:14Z" finished-at="2020-04-15T17:21:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu()[pri:0, instance:com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009@668bc3d5]" name="testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu" duration-ms="8728" started-at="2020-04-14T19:35:39Z" finished-at="2020-04-14T19:35:48Z">
+        <test-method status="PASS" signature="testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu()[pri:0, instance:com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009@668bc3d5]" name="testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu" duration-ms="9031" started-at="2020-04-15T17:21:24Z" finished-at="2020-04-15T17:21:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009@668bc3d5]" name="tearDown" is-config="true" duration-ms="3620" started-at="2020-04-14T19:35:48Z" finished-at="2020-04-14T19:35:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009@668bc3d5]" name="tearDown" is-config="true" duration-ms="1199" started-at="2020-04-15T17:21:33Z" finished-at="2020-04-15T17:21:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009 -->
       <class name="com.STTA.testCases.TC_IEBrowserSampleTest_003">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_IEBrowserSampleTest_003@3d8c7aca]" name="setUp" is-config="true" duration-ms="8427" started-at="2020-04-14T19:33:50Z" finished-at="2020-04-14T19:33:59Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_IEBrowserSampleTest_003@3d8c7aca]" name="setUp" is-config="true" duration-ms="10920" started-at="2020-04-15T17:19:40Z" finished-at="2020-04-15T17:19:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCal()[pri:0, instance:com.STTA.testCases.TC_IEBrowserSampleTest_003@3d8c7aca]" name="testCal" duration-ms="4574" started-at="2020-04-14T19:33:59Z" finished-at="2020-04-14T19:34:03Z">
+        <test-method status="PASS" signature="testCal()[pri:0, instance:com.STTA.testCases.TC_IEBrowserSampleTest_003@3d8c7aca]" name="testCal" duration-ms="4411" started-at="2020-04-15T17:19:51Z" finished-at="2020-04-15T17:19:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCal -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_IEBrowserSampleTest_003@3d8c7aca]" name="tearDown" is-config="true" duration-ms="3762" started-at="2020-04-14T19:34:03Z" finished-at="2020-04-14T19:34:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_IEBrowserSampleTest_003@3d8c7aca]" name="tearDown" is-config="true" duration-ms="1510" started-at="2020-04-15T17:19:56Z" finished-at="2020-04-15T17:19:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_IEBrowserSampleTest_003 -->
       <class name="com.STTA.testCases.TC_HandleCheckbox_004">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HandleCheckbox_004@5ebec15]" name="setUp" is-config="true" duration-ms="9704" started-at="2020-04-14T19:34:07Z" finished-at="2020-04-14T19:34:17Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HandleCheckbox_004@5ebec15]" name="setUp" is-config="true" duration-ms="11719" started-at="2020-04-15T17:19:57Z" finished-at="2020-04-15T17:20:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCheckbox()[pri:0, instance:com.STTA.testCases.TC_HandleCheckbox_004@5ebec15]" name="testCheckbox" duration-ms="5700" started-at="2020-04-14T19:34:17Z" finished-at="2020-04-14T19:34:22Z">
+        <test-method status="PASS" signature="testCheckbox()[pri:0, instance:com.STTA.testCases.TC_HandleCheckbox_004@5ebec15]" name="testCheckbox" duration-ms="4805" started-at="2020-04-15T17:20:09Z" finished-at="2020-04-15T17:20:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckbox -->
-        <test-method status="PASS" signature="testmethodone()[pri:0, instance:com.STTA.testCases.TC_HandleCheckbox_004@5ebec15]" name="testmethodone" duration-ms="2581" started-at="2020-04-14T19:34:22Z" finished-at="2020-04-14T19:34:25Z">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:com.STTA.testCases.TC_HandleCheckbox_004@5ebec15]" name="testmethodone" duration-ms="3590" started-at="2020-04-15T17:20:14Z" finished-at="2020-04-15T17:20:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testmethodone -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HandleCheckbox_004@5ebec15]" name="tearDown" is-config="true" duration-ms="1941" started-at="2020-04-14T19:34:25Z" finished-at="2020-04-14T19:34:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HandleCheckbox_004@5ebec15]" name="tearDown" is-config="true" duration-ms="700" started-at="2020-04-15T17:20:17Z" finished-at="2020-04-15T17:20:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_HandleCheckbox_004 -->
-      <class name="com.STTA.testCases.TC_ReadingFontProperties_014">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ReadingFontProperties_014@79b4d0f]" name="setUp" is-config="true" duration-ms="7773" started-at="2020-04-14T19:37:39Z" finished-at="2020-04-14T19:37:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testReadingFontProperties()[pri:0, instance:com.STTA.testCases.TC_ReadingFontProperties_014@79b4d0f]" name="testReadingFontProperties" duration-ms="4822" started-at="2020-04-14T19:37:47Z" finished-at="2020-04-14T19:37:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testReadingFontProperties -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ReadingFontProperties_014@79b4d0f]" name="tearDown" is-config="true" duration-ms="3399" started-at="2020-04-14T19:37:51Z" finished-at="2020-04-14T19:37:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.STTA.testCases.TC_ReadingFontProperties_014 -->
       <class name="com.STTA.testCases.TC_HandlingJSAlerts_012">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HandlingJSAlerts_012@7a5d012c]" name="setUp" is-config="true" duration-ms="12669" started-at="2020-04-14T19:36:40Z" finished-at="2020-04-14T19:36:53Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HandlingJSAlerts_012@7a5d012c]" name="setUp" is-config="true" duration-ms="15342" started-at="2020-04-15T17:22:17Z" finished-at="2020-04-15T17:22:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testHandlingJSAlerts()[pri:0, instance:com.STTA.testCases.TC_HandlingJSAlerts_012@7a5d012c]" name="testHandlingJSAlerts" duration-ms="15123" started-at="2020-04-14T19:36:53Z" finished-at="2020-04-14T19:37:08Z">
+        <test-method status="PASS" signature="testHandlingJSAlerts()[pri:0, instance:com.STTA.testCases.TC_HandlingJSAlerts_012@7a5d012c]" name="testHandlingJSAlerts" duration-ms="13342" started-at="2020-04-15T17:22:32Z" finished-at="2020-04-15T17:22:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHandlingJSAlerts -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HandlingJSAlerts_012@7a5d012c]" name="tearDown" is-config="true" duration-ms="2672" started-at="2020-04-14T19:37:08Z" finished-at="2020-04-14T19:37:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HandlingJSAlerts_012@7a5d012c]" name="tearDown" is-config="true" duration-ms="711" started-at="2020-04-15T17:22:46Z" finished-at="2020-04-15T17:22:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_HandlingJSAlerts_012 -->
-      <class name="com.STTA.testCases.TC_NavigationCommands_005">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_NavigationCommands_005@21bcffb5]" name="setUp" is-config="true" duration-ms="8626" started-at="2020-04-14T19:34:27Z" finished-at="2020-04-14T19:34:35Z">
+      <class name="com.STTA.testCases.TC_ReadingFontProperties_014">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ReadingFontProperties_014@79b4d0f]" name="setUp" is-config="true" duration-ms="10518" started-at="2020-04-15T17:23:14Z" finished-at="2020-04-15T17:23:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testBrowsercmds()[pri:0, instance:com.STTA.testCases.TC_NavigationCommands_005@21bcffb5]" name="testBrowsercmds" duration-ms="27158" started-at="2020-04-14T19:34:35Z" finished-at="2020-04-14T19:35:03Z">
+        <test-method status="PASS" signature="testReadingFontProperties()[pri:0, instance:com.STTA.testCases.TC_ReadingFontProperties_014@79b4d0f]" name="testReadingFontProperties" duration-ms="3746" started-at="2020-04-15T17:23:24Z" finished-at="2020-04-15T17:23:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBrowsercmds -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_NavigationCommands_005@21bcffb5]" name="tearDown" is-config="true" duration-ms="5471" started-at="2020-04-14T19:35:03Z" finished-at="2020-04-14T19:35:08Z">
+        </test-method> <!-- testReadingFontProperties -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ReadingFontProperties_014@79b4d0f]" name="tearDown" is-config="true" duration-ms="1174" started-at="2020-04-15T17:23:28Z" finished-at="2020-04-15T17:23:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.STTA.testCases.TC_NavigationCommands_005 -->
+      </class> <!-- com.STTA.testCases.TC_ReadingFontProperties_014 -->
       <class name="com.STTA.testCases.TC_DragAndDropAnElement_001">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DragAndDropAnElement_001@3498ed]" name="setUp" is-config="true" duration-ms="51782" started-at="2020-04-14T19:31:20Z" finished-at="2020-04-14T19:32:12Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DragAndDropAnElement_001@3498ed]" name="setUp" is-config="true" duration-ms="17492" started-at="2020-04-15T17:18:25Z" finished-at="2020-04-15T17:18:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testdragAndDrop()[pri:0, instance:com.STTA.testCases.TC_DragAndDropAnElement_001@3498ed]" name="testdragAndDrop" duration-ms="57243" started-at="2020-04-14T19:32:12Z" finished-at="2020-04-14T19:33:09Z">
+        <test-method status="PASS" signature="testdragAndDrop()[pri:0, instance:com.STTA.testCases.TC_DragAndDropAnElement_001@3498ed]" name="testdragAndDrop" duration-ms="20809" started-at="2020-04-15T17:18:43Z" finished-at="2020-04-15T17:19:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdragAndDrop -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DragAndDropAnElement_001@3498ed]" name="tearDown" is-config="true" duration-ms="5128" started-at="2020-04-14T19:33:09Z" finished-at="2020-04-14T19:33:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DragAndDropAnElement_001@3498ed]" name="tearDown" is-config="true" duration-ms="742" started-at="2020-04-15T17:19:04Z" finished-at="2020-04-15T17:19:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_DragAndDropAnElement_001 -->
-      <class name="com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64]" name="setUp" is-config="true" duration-ms="7471" started-at="2020-04-14T19:39:07Z" finished-at="2020-04-14T19:39:14Z">
+      <class name="com.STTA.testCases.TC_NavigationCommands_005">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_NavigationCommands_005@21bcffb5]" name="setUp" is-config="true" duration-ms="10484" started-at="2020-04-15T17:20:18Z" finished-at="2020-04-15T17:20:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testExtractingAllTextFieldsFromWebPage()[pri:0, instance:com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64]" name="testExtractingAllTextFieldsFromWebPage" duration-ms="8943" started-at="2020-04-14T19:39:14Z" finished-at="2020-04-14T19:39:23Z">
+        <test-method status="PASS" signature="testBrowsercmds()[pri:0, instance:com.STTA.testCases.TC_NavigationCommands_005@21bcffb5]" name="testBrowsercmds" duration-ms="23701" started-at="2020-04-15T17:20:28Z" finished-at="2020-04-15T17:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowsercmds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_NavigationCommands_005@21bcffb5]" name="tearDown" is-config="true" duration-ms="719" started-at="2020-04-15T17:20:52Z" finished-at="2020-04-15T17:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.STTA.testCases.TC_NavigationCommands_005 -->
+      <class name="com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64]" name="setUp" is-config="true" duration-ms="10161" started-at="2020-04-15T17:24:35Z" finished-at="2020-04-15T17:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testExtractingAllTextFieldsFromWebPage()[pri:0, instance:com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64]" name="testExtractingAllTextFieldsFromWebPage" duration-ms="7775" started-at="2020-04-15T17:24:45Z" finished-at="2020-04-15T17:24:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExtractingAllTextFieldsFromWebPage -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64]" name="testMethod" duration-ms="0" started-at="2020-04-14T19:39:23Z" finished-at="2020-04-14T19:39:23Z">
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64]" name="testMethod" duration-ms="0" started-at="2020-04-15T17:24:53Z" finished-at="2020-04-15T17:24:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64]" name="tearDown" is-config="true" duration-ms="1942" started-at="2020-04-14T19:39:23Z" finished-at="2020-04-14T19:39:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018@38082d64]" name="tearDown" is-config="true" duration-ms="690" started-at="2020-04-15T17:24:53Z" finished-at="2020-04-15T17:24:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018 -->
       <class name="com.STTA.testCases.TC_DragAndDropElementByPixelXY_026">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DragAndDropElementByPixelXY_026@5f2050f6]" name="setUp" is-config="true" duration-ms="10561" started-at="2020-04-14T19:40:56Z" finished-at="2020-04-14T19:41:07Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DragAndDropElementByPixelXY_026@5f2050f6]" name="setUp" is-config="true" duration-ms="10452" started-at="2020-04-15T17:25:58Z" finished-at="2020-04-15T17:26:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDragAndDropElementByPixelXY()[pri:0, instance:com.STTA.testCases.TC_DragAndDropElementByPixelXY_026@5f2050f6]" name="testDragAndDropElementByPixelXY" duration-ms="25131" started-at="2020-04-14T19:41:07Z" finished-at="2020-04-14T19:41:32Z">
+        <test-method status="PASS" signature="testDragAndDropElementByPixelXY()[pri:0, instance:com.STTA.testCases.TC_DragAndDropElementByPixelXY_026@5f2050f6]" name="testDragAndDropElementByPixelXY" duration-ms="65077" started-at="2020-04-15T17:26:09Z" finished-at="2020-04-15T17:27:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDragAndDropElementByPixelXY -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DragAndDropElementByPixelXY_026@5f2050f6]" name="tearDown" is-config="true" duration-ms="2953" started-at="2020-04-14T19:41:32Z" finished-at="2020-04-14T19:41:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DragAndDropElementByPixelXY_026@5f2050f6]" name="tearDown" is-config="true" duration-ms="739" started-at="2020-04-15T17:27:14Z" finished-at="2020-04-15T17:27:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_DragAndDropElementByPixelXY_026 -->
       <class name="com.STTA.testCases.TC_HighlightElement_013">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HighlightElement_013@3fb6a447]" name="setUp" is-config="true" duration-ms="8327" started-at="2020-04-14T19:37:11Z" finished-at="2020-04-14T19:37:19Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HighlightElement_013@3fb6a447]" name="setUp" is-config="true" duration-ms="10027" started-at="2020-04-15T17:22:46Z" finished-at="2020-04-15T17:22:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testHighlightElement()[pri:0, instance:com.STTA.testCases.TC_HighlightElement_013@3fb6a447]" name="testHighlightElement" duration-ms="17965" started-at="2020-04-14T19:37:19Z" finished-at="2020-04-14T19:37:37Z">
+        <test-method status="PASS" signature="testHighlightElement()[pri:0, instance:com.STTA.testCases.TC_HighlightElement_013@3fb6a447]" name="testHighlightElement" duration-ms="16810" started-at="2020-04-15T17:22:56Z" finished-at="2020-04-15T17:23:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHighlightElement -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HighlightElement_013@3fb6a447]" name="tearDown" is-config="true" duration-ms="1891" started-at="2020-04-14T19:37:37Z" finished-at="2020-04-14T19:37:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HighlightElement_013@3fb6a447]" name="tearDown" is-config="true" duration-ms="678" started-at="2020-04-15T17:23:13Z" finished-at="2020-04-15T17:23:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_HighlightElement_013 -->
       <class name="com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007@79698539]" name="setUp" is-config="true" duration-ms="9532" started-at="2020-04-14T19:38:11Z" finished-at="2020-04-14T19:38:20Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007@79698539]" name="setUp" is-config="true" duration-ms="10113" started-at="2020-04-15T17:23:45Z" finished-at="2020-04-15T17:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDiffBetClickAndSubmit()[pri:0, instance:com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007@79698539]" name="testDiffBetClickAndSubmit" duration-ms="5427" started-at="2020-04-14T19:38:20Z" finished-at="2020-04-14T19:38:26Z">
+        <test-method status="PASS" signature="testDiffBetClickAndSubmit()[pri:0, instance:com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007@79698539]" name="testDiffBetClickAndSubmit" duration-ms="6879" started-at="2020-04-15T17:23:55Z" finished-at="2020-04-15T17:24:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDiffBetClickAndSubmit -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007@79698539]" name="tearDown" is-config="true" duration-ms="2296" started-at="2020-04-14T19:38:26Z" finished-at="2020-04-14T19:38:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007@79698539]" name="tearDown" is-config="true" duration-ms="707" started-at="2020-04-15T17:24:02Z" finished-at="2020-04-15T17:24:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007 -->
       <class name="com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022@26ba2a48]" name="setUp" is-config="true" duration-ms="17795" started-at="2020-04-14T19:40:16Z" finished-at="2020-04-14T19:40:34Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022@26ba2a48]" name="setUp" is-config="true" duration-ms="10079" started-at="2020-04-15T17:25:28Z" finished-at="2020-04-15T17:25:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDDTorParameterization()[pri:0, instance:com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022@26ba2a48]" name="testDDTorParameterization" duration-ms="19342" started-at="2020-04-14T19:40:34Z" finished-at="2020-04-14T19:40:53Z">
+        <test-method status="PASS" signature="testDDTorParameterization()[pri:0, instance:com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022@26ba2a48]" name="testDDTorParameterization" duration-ms="19992" started-at="2020-04-15T17:25:38Z" finished-at="2020-04-15T17:25:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDDTorParameterization -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022@26ba2a48]" name="tearDown" is-config="true" duration-ms="2735" started-at="2020-04-14T19:40:53Z" finished-at="2020-04-14T19:40:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022@26ba2a48]" name="tearDown" is-config="true" duration-ms="679" started-at="2020-04-15T17:25:58Z" finished-at="2020-04-15T17:25:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022 -->
-      <class name="com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015@6b2fad11]" name="setUp" is-config="true" duration-ms="7133" started-at="2020-04-14T19:37:55Z" finished-at="2020-04-14T19:38:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDiffBetFindElementAndFindElements()[pri:0, instance:com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015@6b2fad11]" name="testDiffBetFindElementAndFindElements" duration-ms="6057" started-at="2020-04-14T19:38:02Z" finished-at="2020-04-14T19:38:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDiffBetFindElementAndFindElements -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015@6b2fad11]" name="tearDown" is-config="true" duration-ms="2604" started-at="2020-04-14T19:38:08Z" finished-at="2020-04-14T19:38:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015 -->
       <class name="com.STTA.testCases.TC_HandleDynamicWebTable_020">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HandleDynamicWebTable_020@42d3bd8b]" name="setUp" is-config="true" duration-ms="9040" started-at="2020-04-14T19:39:49Z" finished-at="2020-04-14T19:39:58Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_HandleDynamicWebTable_020@42d3bd8b]" name="setUp" is-config="true" duration-ms="10370" started-at="2020-04-15T17:25:13Z" finished-at="2020-04-15T17:25:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testHandleDynamicWebTable()[pri:0, instance:com.STTA.testCases.TC_HandleDynamicWebTable_020@42d3bd8b]" name="testHandleDynamicWebTable" duration-ms="10126" started-at="2020-04-14T19:39:58Z" finished-at="2020-04-14T19:40:08Z">
+        <test-method status="PASS" signature="testHandleDynamicWebTable()[pri:0, instance:com.STTA.testCases.TC_HandleDynamicWebTable_020@42d3bd8b]" name="testHandleDynamicWebTable" duration-ms="3814" started-at="2020-04-15T17:25:23Z" finished-at="2020-04-15T17:25:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHandleDynamicWebTable -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HandleDynamicWebTable_020@42d3bd8b]" name="tearDown" is-config="true" duration-ms="8412" started-at="2020-04-14T19:40:08Z" finished-at="2020-04-14T19:40:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_HandleDynamicWebTable_020@42d3bd8b]" name="tearDown" is-config="true" duration-ms="732" started-at="2020-04-15T17:25:27Z" finished-at="2020-04-15T17:25:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.STTA.testCases.TC_HandleDynamicWebTable_020 -->
+      <class name="com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015@6b2fad11]" name="setUp" is-config="true" duration-ms="10110" started-at="2020-04-15T17:23:29Z" finished-at="2020-04-15T17:23:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDiffBetFindElementAndFindElements()[pri:0, instance:com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015@6b2fad11]" name="testDiffBetFindElementAndFindElements" duration-ms="5023" started-at="2020-04-15T17:23:39Z" finished-at="2020-04-15T17:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiffBetFindElementAndFindElements -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015@6b2fad11]" name="tearDown" is-config="true" duration-ms="698" started-at="2020-04-15T17:23:44Z" finished-at="2020-04-15T17:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015 -->
     </test> <!--  Ecommerce Application Test  -->
   </suite> <!-- SoftwareTestingTutorialsandAutomation -->
 </testng-results>

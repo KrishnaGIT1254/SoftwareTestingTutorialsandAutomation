@@ -95,12 +95,7 @@ public class BaseClass {
 			
 		}
 		
-		else if(br.equals("HTMLUnit"))
-		{
-			System.out.println("Test Starts Running in HTMLUnit Headless Browser.");
-		   // driver = new HtmlUnitDriver();
-			
-		}
+		
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 
