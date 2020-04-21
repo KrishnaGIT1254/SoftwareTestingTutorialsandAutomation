@@ -67,9 +67,8 @@ public class BaseClass {
 			System.out.println("Test Starts Running in Chrome Browser.");
 		    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
 		    driver = new ChromeDriver(); 
-		
-		
-		driver.manage().window().maximize();
+		    driver.manage().window().maximize();
+		    
 		}
 		else if(br.equals("firefox"))
 		{
@@ -86,7 +85,6 @@ public class BaseClass {
 			driver.manage().window().maximize();
 			
 		}
-		
 		else if(br.equals("edge"))
 		{
 			System.out.println("Test Starts Running in MicrosoftEdge Browser.");
@@ -96,8 +94,9 @@ public class BaseClass {
 		}
 		
 		
-		
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().deleteAllCookies(); // delete all the cookies
 		 
 		
 		

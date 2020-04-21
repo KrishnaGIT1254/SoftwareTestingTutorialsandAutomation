@@ -23,6 +23,7 @@ com\STTA\testCases\TC_ReadingFontProperties_014.class
 com\STTA\testCases\TC_AddNewCustomer_0002.class
 com\STTA\testCases\TC_DragAndDropAnElement_001.class
 com\STTA\testCases\TC_DragAndDropElementByPixelXY_026.class
+com\STTA\testCases\TC_CalendarSelectTestNaveen_028.class
 com\STTA\pageObjects\DragAndDropPage.class
 com\STTA\testCases\TC_HandleAjaxAutoSuggestDropList_021.class
 com\STTA\testCases\BaseClass.class
@@ -30,6 +31,7 @@ com\STTA\testCases\TC_AssertTrueTestNG_024.class
 com\STTA\testCases\TC_DiifBetweenSubmitAndClick_007.class
 com\STTA\pageObjects\LoginPage.class
 com\STTA\testCases\TC_CheckBoxRadioButtonOperations_006.class
+com\STTA\testCases\TC_AlertPopUpHandleNaveen_027.class
 com\STTA\testCases\TC_NavigationCommands_005.class
 com\STTA\testCases\TC_DeleteCustomer_0004.class
 com\STTA\testCases\TC_HighlightElement_013.class

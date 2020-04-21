@@ -11,15 +11,15 @@
 	<test name=" Ecommerce Application Test ">
 	
 	   <!--    <parameter name="browser" value="firefox" />-->
-          <parameter name="browser" value="chrome" />
-     <!--    <parameter name="browser" value="ie" />-->
+        <parameter name="browser" value="chrome" />
+        <!--   <parameter name="browser" value="ie" />-->
              <!--    <parameter name="browser" value="edge" />-->
      
         
 	
 		<classes>
 		
-		 		        <class name="com.STTA.testCases.TC_DragAndDropAnElement_001"/>
+		 		         <class name="com.STTA.testCases.TC_DragAndDropAnElement_001"/>
 		 		       
 			           <class name="com.STTA.testCases.TC_DataproviderDDT_002"/>
 			           
@@ -62,6 +62,14 @@
 			 <class name="com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022"/>
 			 
 			 <class name="com.STTA.testCases.TC_DragAndDropElementByPixelXY_026"/>
+			 
+			 <class name="com.STTA.testCases.TC_AlertPopUpHandleNaveen_027"/>
+			  
+			 
+			 
+			<!--   <class name="com.STTA.testCases.TC_CalendarSelectTestNaveen_028"/>-->
+			 
+			 
 			 
 			 
 			 
