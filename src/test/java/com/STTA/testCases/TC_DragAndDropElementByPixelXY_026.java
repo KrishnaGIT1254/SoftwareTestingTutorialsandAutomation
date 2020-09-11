@@ -16,7 +16,7 @@ public class TC_DragAndDropElementByPixelXY_026 extends BaseClass{
 	{
 		//Application Launch 
 		   String url =
-		  "http://only-testing-blog.blogspot.in/2014/09/drag-and-drop.html";
+		  "http://only-testing-blog.blogspot.com/2014/09/drag-and-drop.html";
 		  driver.get(url); 
 		  logger.info("Application URL is Launched");
 		  

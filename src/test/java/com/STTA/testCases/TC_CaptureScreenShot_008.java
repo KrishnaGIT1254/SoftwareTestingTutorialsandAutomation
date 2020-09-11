@@ -15,7 +15,7 @@ public class TC_CaptureScreenShot_008 extends BaseClass{
 	@Test
 	public void testCaptureScreenshot() throws IOException
 	{
-		String url = "http://only-testing-blog.blogspot.in/2014/01/textbox.html";
+		String url = "http://only-testing-blog.blogspot.com/2014/01/textbox.html";
 		driver.get(url);
 		logger.info("Application URL is Launched");
 		

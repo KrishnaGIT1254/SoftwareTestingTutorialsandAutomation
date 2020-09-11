@@ -14,7 +14,7 @@ public class TC_ReadingFontProperties_014 extends BaseClass{
 	public void testReadingFontProperties() throws Exception
 	{
 		//Application Launch
-				String url = "http://only-testing-blog.blogspot.in/2014/05/login.html";
+				String url = "http://only-testing-blog.blogspot.com/2014/05/login.html";
 				driver.get(url);
 				logger.info("Application URL is Launched");
 				

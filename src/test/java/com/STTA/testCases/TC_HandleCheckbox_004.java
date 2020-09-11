@@ -14,7 +14,7 @@ public class TC_HandleCheckbox_004 extends BaseClass{
 	public void testCheckbox() throws IOException
 	{
 		//Application Launch
-				driver.get("http://only-testing-blog.blogspot.in/2013/11/new-test.html");
+				driver.get("http://only-testing-blog.blogspot.com/2013/11/new-test.html");
 				logger.info("Application URL is Launched");
 				
 				String i = driver.getCurrentUrl();

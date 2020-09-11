@@ -10,16 +10,18 @@
 	
 	<test name=" Ecommerce Application Test ">
 	
-	   <!--    <parameter name="browser" value="firefox" />-->
-        <parameter name="browser" value="chrome" />
-        <!--   <parameter name="browser" value="ie" />-->
-             <!--    <parameter name="browser" value="edge" />-->
+	             <parameter name="browser" value="firefox" />
+          <!--   <parameter name="browser" value="chrome" />-->
+          <!--   <parameter name="browser" value="ie" />-->
+                 <!--    <parameter name="browser" value="edge" />-->
      
         
 	
 		<classes>
 		
-		 		         <class name="com.STTA.testCases.TC_DragAndDropAnElement_001"/>
+		                <class name ="com.STTA.testCases.TC_HighlightElement_013"/>
+		
+		 		            <class name="com.STTA.testCases.TC_DragAndDropAnElement_001"/>
 		 		       
 			           <class name="com.STTA.testCases.TC_DataproviderDDT_002"/>
 			           
@@ -39,7 +41,7 @@
 		
 			  <class name ="com.STTA.testCases.TC_HandlingJSAlerts_012"/>
 			  
-			  <class name ="com.STTA.testCases.TC_HighlightElement_013"/>
+			  
 			  
 			<class name ="com.STTA.testCases.TC_ReadingFontProperties_014"/> 
 			 
@@ -64,10 +66,28 @@
 			 <class name="com.STTA.testCases.TC_DragAndDropElementByPixelXY_026"/>
 			 
 			 <class name="com.STTA.testCases.TC_AlertPopUpHandleNaveen_027"/>
+			 
+			    <class name="com.STTA.testCases.TC_CalendarSelectTestNaveen_028"/>
+			 
+			 <class name="com.STTA.testCases.TC_HandlingDoubleClickAction_029"/>
+			  
+			 <class name="com.STTA.testCases.TC_WebElementsDemo_031"/>   
+			 
+			<!--    <class name="com.STTA.testCases.TC_CaptureElementScreenshot_032"/>-->
+			 
+			 <class name="com.STTA.testCases.TC_GetHeightAndWidthOfElement_033"/>
+			 
+			 <class name="com.STTA.testCases.TC_ZoomInAndZoomOutPage_034"/> 
+			 
+			<!--   <class name="com.STTA.testCases.TC_OpenTabAndSwitchingBetweenTabs_035"/>-->
+			 
+			 
+			 
+			 
 			  
 			 
 			 
-			<!--   <class name="com.STTA.testCases.TC_CalendarSelectTestNaveen_028"/>-->
+			
 			 
 			 
 			 
@@ -84,7 +104,9 @@
 			 
 			 	<class name="com.STTA.testCases.TC_AssertTrueTestNG_024"/>
 			 	
-			 	<class name="com.STTA.testCases.TC_AssertNullTestNG_025"/> -->
+			 	<class name="com.STTA.testCases.TC_AssertNullTestNG_025"/>
+			 	 <class name="com.STTA.testCases.TC_AjaxDDdemo_030"/>
+			 	 -->
 			 	
 			 		   
 			    	

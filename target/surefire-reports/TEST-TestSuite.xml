@@ -1,167 +1,330 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="228.674" tests="27" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="374.758" tests="34" errors="0" skipped="2" failures="5">
   <properties>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="SoftwareTestingTutorialsandAutomation_Pom.Xml"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Users\Venkatakrishna\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="4cba229946f8e3a2"/>
-    <property name="POM_ARTIFACTID" value="SoftwareTestingTutorialsandAutomation"/>
-    <property name="SynaProgDir" value="Synaptics\SynTP"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="SoftwareTestingTutorialsandAutomation"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\Users\VENKAT~1\AppData\Local\Temp"/>
-    <property name="java.runtime.version" value="1.8.0_241-b07"/>
-    <property name="user.name" value="Venkatakrishna"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="SoftwareTestingTutorialsandAutomation_Pom.Xml"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SoftwareTestingTutorialsandAutomation_Pom.Xml/9/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#9"/>
-    <property name="OneDrive" value="C:\Users\Venkatakrishna\OneDrive"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
-    <property name="LOCALAPPDATA" value="C:\Users\Venkatakrishna\AppData\Local"/>
-    <property name="java.version" value="1.8.0_241"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="USERNAME" value="Venkatakrishna"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="9"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="HOMEDRIVE" value="C:"/>
-    <property name="maven.conf" value="C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="=::" value="::\"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SoftwareTestingTutorialsandAutomation_Pom.Xml/9/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\Users\VENKAT~1\AppData\Local\Temp"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.version" value="25.241-b07"/>
-    <property name="user.variant" value=""/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/SoftwareTestingTutorialsandAutomation_Pom.Xml/display/redirect"/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="USERDOMAIN_ROAMINGPROFILE" value="SYSTEM"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_241"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
-    <property name="HOMEPATH" value="\Users\Venkatakrishna"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="user.script" value=""/>
-    <property name="COMPUTERNAME" value="SYSTEM"/>
-    <property name="POM_GROUPID" value="SoftwareTestingTutorialsandAutomation"/>
-    <property name="user.home" value="C:\Users\Venkatakrishna"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-SoftwareTestingTutorialsandAutomation_Pom.Xml-9"/>
-    <property name="JENKINS_SERVER_COOKIE" value="4cba229946f8e3a2"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\Venkatakrishna"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Venkatakrishna\AppData\Local\Microsoft\WindowsApps;;C:\Users\Venkatakrishna\AppData\Local\Programs\Microsoft VS Code\bin;."/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\Venkatakrishna\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
-    <property name="java.class.path" value="C:\Users\Venkatakrishna\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3 C:\Users\Venkatakrishna\.jenkins\war\WEB-INF\lib\remoting-4.2.jar C:\Users\Venkatakrishna\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Venkatakrishna\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 51300"/>
-    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Venkatakrishna\AppData\Local\Microsoft\WindowsApps;;C:\Users\Venkatakrishna\AppData\Local\Programs\Microsoft VS Code\bin"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_241/bin"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
-    <property name="SESSIONNAME" value="Console"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="NODE_HOME" value="C:\Program Files\nodejs"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="M2_HOME" value="C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
-    <property name="java.io.tmpdir" value="C:\Users\VENKAT~1\AppData\Local\Temp\"/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="HUDSON_HOME" value="C:\Users\Venkatakrishna\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/SoftwareTestingTutorialsandAutomation_Pom.Xml/9/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="SystemRoot" value="C:\Windows"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Users\Venkatakrishna\Desktop\SoftwareTestingTutorialsandAutomation"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/SoftwareTestingTutorialsandAutomation_Pom.Xml/"/>
-    <property name="LOGONSERVER" value="\\SYSTEM"/>
-    <property name="USERDOMAIN" value="SYSTEM"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="MAVEN_HOME" value="C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Venkatakrishna\Desktop\SoftwareTestingTutorialsandAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="9"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="PROCESSOR_REVISION" value="3a09"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\Windows"/>
-    <property name="=C:" value="C:\Users\Venkatakrishna"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Users\Venkatakrishna\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\Venkatakrishna\.jenkins\workspace\SoftwareTestingTutorialsandAutomation_Pom.Xml@tmp"/>
-    <property name="WORKSPACE" value="C:\Users\Venkatakrishna\.jenkins\workspace\SoftwareTestingTutorialsandAutomation_Pom.Xml"/>
-    <property name="maven3.interceptor.common" value="C:\Users\Venkatakrishna\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Venkatakrishna\Desktop\SoftwareTestingTutorialsandAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VENKAT~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Venkatakrishna\Documents\EclipseWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7569719922903632675.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\user\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Venkatakrishna\AppData\Local\Microsoft\WindowsApps;;C:\Users\Venkatakrishna\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Venkatakrishna\Downloads\eclipse-jee-photon-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Venkatakrishna"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
-    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Venkatakrishna"/>
+    <property name="java.class.path" value="C:\Users\Venkatakrishna\Downloads\eclipse-jee-photon-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.0.20180606-2035\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Venkatakrishna\Desktop\SoftwareTestingTutorialsandAutomation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testdragAndDrop" classname="com.STTA.testCases.TC_DragAndDropAnElement_001" time="11.889"/>
-  <testcase name="LogIn_Test" classname="com.STTA.testCases.TC_DataproviderDDT_002" time="7.291"/>
-  <testcase name="LogIn_Test" classname="com.STTA.testCases.TC_DataproviderDDT_002" time="5.352"/>
-  <testcase name="LogIn_Test" classname="com.STTA.testCases.TC_DataproviderDDT_002" time="4.574"/>
-  <testcase name="LogIn_Test" classname="com.STTA.testCases.TC_DataproviderDDT_002" time="5.358"/>
-  <testcase name="testCal" classname="com.STTA.testCases.TC_IEBrowserSampleTest_003" time="4.494"/>
-  <testcase name="testCheckbox" classname="com.STTA.testCases.TC_HandleCheckbox_004" time="8.903"/>
-  <testcase name="testmethodone" classname="com.STTA.testCases.TC_HandleCheckbox_004" time="3.359"/>
-  <testcase name="testBrowsercmds" classname="com.STTA.testCases.TC_NavigationCommands_005" time="18.264"/>
-  <testcase name="testCaptureScreenshot" classname="com.STTA.testCases.TC_CaptureScreenShot_008" time="4.412"/>
-  <testcase name="testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu" classname="com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009" time="7.163"/>
-  <testcase name="testHandlingMultipleBrowserWindows" classname="com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010" time="30.136"/>
-  <testcase name="testHandlingJSAlerts" classname="com.STTA.testCases.TC_HandlingJSAlerts_012" time="12.416"/>
-  <testcase name="testHighlightElement" classname="com.STTA.testCases.TC_HighlightElement_013" time="14.787"/>
-  <testcase name="testReadingFontProperties" classname="com.STTA.testCases.TC_ReadingFontProperties_014" time="3.355"/>
-  <testcase name="testDiffBetFindElementAndFindElements" classname="com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015" time="6.523"/>
-  <testcase name="testDiffBetClickAndSubmit" classname="com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007" time="7.58"/>
-  <testcase name="testObjectRepositoryUsingPropertiesFile" classname="com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016" time="5.23"/>
-  <testcase name="testGetOrExtractAllLinksFromWebPage" classname="com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017" time="6.616"/>
-  <testcase name="testExtractingAllTextFieldsFromWebPage" classname="com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018" time="9.012"/>
+  <testcase name="setUp" classname="com.STTA.testCases.TC_HighlightElement_013" time="83.976">
+    <failure message="connection refused&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SYSTEM&apos;, ip: &apos;10.17.4.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SYSTEM', ip: '10.17.4.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+	at com.STTA.testCases.BaseClass.setUp(BaseClass.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></failure>
+    <system-out><![CDATA[Test Starts Running in Firefox Browser.
+]]></system-out>
+    <system-err><![CDATA[1599216302986	geckodriver	INFO	geckodriver 0.20.1
+1599216303016	geckodriver	INFO	Listening on 127.0.0.1:17843
+1599216305152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile.tDOtUSzGD3xn"
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+1599216343714	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+]]></system-err>
+  </testcase>
+  <testcase name="testHighlightElement" classname="com.STTA.testCases.TC_HighlightElement_013" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.STTA.testCases.TC_HighlightElement_013" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testdragAndDrop" classname="com.STTA.testCases.TC_DragAndDropAnElement_001" time="16.962"/>
+  <testcase name="LogIn_Test" classname="com.STTA.testCases.TC_DataproviderDDT_002" time="18.709"/>
+  <testcase name="LogIn_Test" classname="com.STTA.testCases.TC_DataproviderDDT_002" time="2.878"/>
+  <testcase name="LogIn_Test" classname="com.STTA.testCases.TC_DataproviderDDT_002" time="2.549"/>
+  <testcase name="LogIn_Test" classname="com.STTA.testCases.TC_DataproviderDDT_002" time="2.359"/>
+  <testcase name="testCal" classname="com.STTA.testCases.TC_IEBrowserSampleTest_003" time="7.933"/>
+  <testcase name="testCheckbox" classname="com.STTA.testCases.TC_HandleCheckbox_004" time="4.951"/>
+  <testcase name="testmethodone" classname="com.STTA.testCases.TC_HandleCheckbox_004" time="1.407">
+    <failure message="Reached error page: about:neterror?e=dnsNotFound&amp;u=http%3A//only-testing-blog.blogspot.in/2014/01/textbox.html&amp;c=UTF-8&amp;f=regular&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20only-testing-blog.blogspot.in.&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SYSTEM&apos;, ip: &apos;10.17.4.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 17084, moz:profile: C:\Users\Venkatakrishna\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 71dc2659-ea23-4128-80a4-8f77e9b5c75d" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=http%3A//only-testing-blog.blogspot.in/2014/01/textbox.html&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20only-testing-blog.blogspot.in.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SYSTEM', ip: '10.17.4.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 17084, moz:profile: C:\Users\Venkatakrishna\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 71dc2659-ea23-4128-80a4-8f77e9b5c75d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:853)
+	at com.STTA.testCases.TC_HandleCheckbox_004.testmethodone(TC_HandleCheckbox_004.java:57)
+]]></failure>
+  </testcase>
+  <testcase name="testBrowsercmds" classname="com.STTA.testCases.TC_NavigationCommands_005" time="22.768"/>
+  <testcase name="testCaptureScreenshot" classname="com.STTA.testCases.TC_CaptureScreenShot_008" time="4.148"/>
+  <testcase name="testGeneratingMouseHoverEventOnMainMenuToClickOnSubMenu" classname="com.STTA.testCases.TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009" time="6.992"/>
+  <testcase name="testHandlingMultipleBrowserWindows" classname="com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010" time="18.976">
+    <failure message="Unable to locate element: //input[@name=&apos;fname&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SYSTEM&apos;, ip: &apos;10.17.4.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20028, moz:profile: C:\Users\Venkatakrishna\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 17b85ba1-27b5-4288-8079-f2dbb2edcddd&#10;*** Element info: {Using=xpath, value=//input[@name=&apos;fname&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name='fname']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SYSTEM', ip: '10.17.4.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20028, moz:profile: C:\Users\Venkatakrishna\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 17b85ba1-27b5-4288-8079-f2dbb2edcddd
+*** Element info: {Using=xpath, value=//input[@name='fname']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.STTA.testCases.TC_HandlingMultipleBrowserWindows_010.testHandlingMultipleBrowserWindows(TC_HandlingMultipleBrowserWindows_010.java:56)
+</failure>
+    <system-out><![CDATA[Test Starts Running in Firefox Browser.
+ INFO [main] (TC_HandlingMultipleBrowserWindows_010.java:20)- Application URL is Launched
+The Title of the page is Only Testing: TextBox
+ INFO [main] (TC_HandlingMultipleBrowserWindows_010.java:25)- The title of the page is stored
+The title length is 21
+ INFO [main] (TC_HandlingMultipleBrowserWindows_010.java:30)- The title length is stored
+This is the Page Current URL: http://only-testing-blog.blogspot.com/2014/01/textbox.html
+ INFO [main] (TC_HandlingMultipleBrowserWindows_010.java:36)- we got Current page URL
+My Current URL domain name is: only-testing-blog.blogspot.com
+ INFO [main] (TC_HandlingMultipleBrowserWindows_010.java:42)- Stored the Domain name of the current url
+window1 handle code = 4294967297
+window2 handle code = 4294967301]]></system-out>
+    <system-err><![CDATA[[Parent 6660, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6660, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599216671989	geckodriver	INFO	geckodriver 0.20.1
+1599216672009	geckodriver	INFO	Listening on 127.0.0.1:15893
+1599216672442	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile.xoUCY04U1UQS"
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+1599216676672	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+1599216681662	Marionette	INFO	Listening on port 49386
+1599216682688	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sep 04, 2020 4:21:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testHandlingJSAlerts" classname="com.STTA.testCases.TC_HandlingJSAlerts_012" time="13.027"/>
+  <testcase name="testReadingFontProperties" classname="com.STTA.testCases.TC_ReadingFontProperties_014" time="2.914"/>
+  <testcase name="testDiffBetFindElementAndFindElements" classname="com.STTA.testCases.TC_DiffBetFindElementAndFindElements_015" time="5.755"/>
+  <testcase name="testDiffBetClickAndSubmit" classname="com.STTA.testCases.TC_DiifBetweenSubmitAndClick_007" time="3.649"/>
+  <testcase name="testObjectRepositoryUsingPropertiesFile" classname="com.STTA.testCases.TC_ObjectRepositoryUsingPropertiesFile_016" time="4.941"/>
+  <testcase name="testGetOrExtractAllLinksFromWebPage" classname="com.STTA.testCases.TC_GetOrExtractAllLinksFromWebPage_017" time="4.046"/>
+  <testcase name="testExtractingAllTextFieldsFromWebPage" classname="com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018" time="6.963"/>
   <testcase name="testMethod" classname="com.STTA.testCases.TC_ExtractingAllTextFieldsFromWebPage_018" time="0"/>
-  <testcase name="testExtractOrReadTableData" classname="com.STTA.testCases.TC_ExtractOrReadTableData_19" time="5.299"/>
-  <testcase name="testmethodone" classname="com.STTA.testCases.TC_ExtractOrReadTableData_19" time="2.78"/>
-  <testcase name="testHandleDynamicWebTable" classname="com.STTA.testCases.TC_HandleDynamicWebTable_020" time="4.511"/>
-  <testcase name="testDDTorParameterization" classname="com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022" time="20.691"/>
-  <testcase name="testDragAndDropElementByPixelXY" classname="com.STTA.testCases.TC_DragAndDropElementByPixelXY_026" time="25.388"/>
-  <testcase name="testAlertPopUpHandleNaveen" classname="com.STTA.testCases.TC_AlertPopUpHandleNaveen_027" time="8.575"/>
+  <testcase name="testExtractOrReadTableData" classname="com.STTA.testCases.TC_ExtractOrReadTableData_19" time="5.06"/>
+  <testcase name="testmethodone" classname="com.STTA.testCases.TC_ExtractOrReadTableData_19" time="0.39">
+    <failure message="Reached error page: about:neterror?e=dnsNotFound&amp;u=http%3A//only-testing-blog.blogspot.in/2014/01/textbox.html&amp;c=UTF-8&amp;f=regular&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20only-testing-blog.blogspot.in.&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SYSTEM&apos;, ip: &apos;10.17.4.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16016, moz:profile: C:\Users\Venkatakrishna\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 294976a7-6401-4118-8856-44c6f8917bf1" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=http%3A//only-testing-blog.blogspot.in/2014/01/textbox.html&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20only-testing-blog.blogspot.in.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SYSTEM', ip: '10.17.4.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16016, moz:profile: C:\Users\Venkatakrishna\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 294976a7-6401-4118-8856-44c6f8917bf1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:853)
+	at com.STTA.testCases.TC_ExtractOrReadTableData_19.testmethodone(TC_ExtractOrReadTableData_19.java:110)
+]]></failure>
+  </testcase>
+  <testcase name="testHandleDynamicWebTable" classname="com.STTA.testCases.TC_HandleDynamicWebTable_020" time="3.306"/>
+  <testcase name="testDDTorParameterization" classname="com.STTA.testCases.TC_ParameterizationOrDataDrivenTesting_022" time="17.479"/>
+  <testcase name="testDragAndDropElementByPixelXY" classname="com.STTA.testCases.TC_DragAndDropElementByPixelXY_026" time="22.453"/>
+  <testcase name="testAlertPopUpHandleNaveen" classname="com.STTA.testCases.TC_AlertPopUpHandleNaveen_027" time="8.66"/>
+  <testcase name="testCalendarSelectTestNaveen" classname="com.STTA.testCases.TC_CalendarSelectTestNaveen_028" time="34.34">
+    <failure message="Unable to locate element: *[name=&apos;username&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SYSTEM&apos;, ip: &apos;10.17.4.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20080, moz:profile: C:\Users\Venkatakrishna\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 6a8f8439-5065-42e4-8517-2a619738c50d&#10;*** Element info: {Using=name, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='username']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SYSTEM', ip: '10.17.4.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20080, moz:profile: C:\Users\Venkatakrishna\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6a8f8439-5065-42e4-8517-2a619738c50d
+*** Element info: {Using=name, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.STTA.testCases.TC_CalendarSelectTestNaveen_028.testCalendarSelectTestNaveen(TC_CalendarSelectTestNaveen_028.java:49)
+</failure>
+    <system-out><![CDATA[Test Starts Running in Firefox Browser.
+ INFO [main] (TC_CalendarSelectTestNaveen_028.java:22)- Application URL is Launched
+The Title of the page is Cogmento CRM
+ INFO [main] (TC_CalendarSelectTestNaveen_028.java:27)- The title of the page is stored
+The title length is 12
+ INFO [main] (TC_CalendarSelectTestNaveen_028.java:33)- The title length is stored
+This is the Page Current URL: https://ui.cogmento.com/
+ INFO [main] (TC_CalendarSelectTestNaveen_028.java:38)- we got Current page URL
+My Current URL domain name is: ui.cogmento.com
+ INFO [main] (TC_CalendarSelectTestNaveen_028.java:45)- Stored the Domain name of the current url
+]]></system-out>
+    <system-err><![CDATA[[Parent 18828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome
+###!!! [Child][MessageChannel] Error: (msgtype=0x47000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599216931087	geckodriver	INFO	geckodriver 0.20.1
+1599216931110	geckodriver	INFO	Listening on 127.0.0.1:47223
+1599216931633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\VENKAT~1\\AppData\\Local\\Temp\\rust_mozprofile.mbGpW8xw3EtA"
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+1599216933702	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Venkatakrishna\AppData\Local\openvr\openvrpaths.vrpath
+1599216938676	Marionette	INFO	Listening on port 51715
+1599216939036	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sep 04, 2020 4:25:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testHandlingDoubleClickAction" classname="com.STTA.testCases.TC_HandlingDoubleClickAction_029" time="16.614"/>
+  <testcase name="testWebElementsDemo" classname="com.STTA.testCases.TC_WebElementsDemo_031" time="8.628"/>
+  <testcase name="testGetHeightAndWidthOfElement" classname="com.STTA.testCases.TC_GetHeightAndWidthOfElement_033" time="8.938"/>
+  <testcase name="testZoomInAndZoomOutPage" classname="com.STTA.testCases.TC_ZoomInAndZoomOutPage_034" time="20.773"/>
 </testsuite>

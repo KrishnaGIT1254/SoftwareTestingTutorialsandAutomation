@@ -13,7 +13,7 @@ public class TC_AssertEqualsTestNG_023 extends BaseClass{
 	public void testAssertEqualsTestNG()
 	{
 		//Application Launch
-		String url = "http://only-testing-blog.blogspot.in/2014/01/textbox.html";
+		String url = "http://only-testing-blog.blogspot.com/2014/01/textbox.html";
 		driver.get(url);
 		logger.info("Application URL is Launched");
 		

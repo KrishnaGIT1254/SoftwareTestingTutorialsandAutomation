@@ -14,7 +14,7 @@ public class TC_AssertTrueTestNG_024 extends BaseClass{
 	public void testAssertTrueTestNG()
 	{
 		
-		driver.get("http://only-testing-blog.blogspot.in/2014/02/attributes.html");
+		driver.get("http://only-testing-blog.blogspot.com/2014/02/attributes.html");
 		  chk1 = driver.findElement(By.xpath("//input[@name='option1']"));
 		  chk2 = driver.findElement(By.xpath("//input[@name='option2']"));  
 		  

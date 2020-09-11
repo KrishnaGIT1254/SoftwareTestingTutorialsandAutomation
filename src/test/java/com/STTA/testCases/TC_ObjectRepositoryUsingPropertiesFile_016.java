@@ -17,7 +17,7 @@ public class TC_ObjectRepositoryUsingPropertiesFile_016 extends BaseClass {
 	{
 		//Application Launch
 				
-		String url = "http://only-testing-blog.blogspot.in/2014/04/calc.html";
+		String url = "http://only-testing-blog.blogspot.com/2014/04/calc.html";
 		driver.get(url);
 				logger.info("Application URL is Launched");
 				

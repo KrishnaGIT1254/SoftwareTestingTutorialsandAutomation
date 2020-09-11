@@ -13,7 +13,7 @@ public class TC_AssertNullTestNG_025 extends BaseClass{
 	public void testAssertNullTestNG()
 	{
 		
-		driver.get("http://only-testing-blog.blogspot.in/2014/02/attributes.html");
+		driver.get("http://only-testing-blog.blogspot.com/2014/02/attributes.html");
 		  txt1 = driver.findElement(By.xpath("//input[@id='text1']"));
 		  txt2 = driver.findElement(By.xpath("//input[@id='text2']"));  
 		

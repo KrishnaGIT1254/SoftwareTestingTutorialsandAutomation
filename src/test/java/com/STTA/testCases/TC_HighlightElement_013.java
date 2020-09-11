@@ -15,7 +15,7 @@ public class TC_HighlightElement_013 extends BaseClass{
 	public void testHighlightElement() throws Exception
 	{
 		//Application Launch
-				//String url = "http://only-testing-blog.blogspot.in/2013/11/new-test.html";
+				String url = "http://only-testing-blog.blogspot.com/2013/11/new-test.html";
 				driver.get(baseURL);
 				logger.info("Application URL is Launched");
 				
@@ -40,7 +40,8 @@ public class TC_HighlightElement_013 extends BaseClass{
 			    System.out.println("My Current URL domain name is: "+CurrentURLUsingJS);
 			    logger.info("Stored the Domain name of the current url");
 			    
-			    HighlightMyElement(driver.findElement(By.xpath("//input[@name='fname']")));
+			    //HighlightMyElement(driver.findElement(By.xpath("//input[@name='fname']")));
+			    HighlightMyElement(driver.findElement(By.name("fname")));
 			    logger.info("element is Highlited");
 			    driver.findElement(By.xpath("//input[@name='fname']")).sendKeys("My Name");
 			    logger.info("Text is entered into the feild");

@@ -14,7 +14,7 @@ public class TC_ExtractOrReadTableData_19 extends BaseClass{
 	{
 		 //Application Launch 
 		String url =
-		  "http://only-testing-blog.blogspot.in/2013/09/test.html";
+		  "http://only-testing-blog.blogspot.com/2013/09/test.html";
 		  driver.get(url); 
 		  logger.info("Application URL is Launched");
 		  

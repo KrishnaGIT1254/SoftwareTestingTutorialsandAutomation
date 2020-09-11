@@ -7,13 +7,13 @@
   <test thread-count="5" name=" Ecommerce Application Test (failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.STTA.testCases.TC_CalendarSelectTestNaveen_028">
+      <class name="com.STTA.testCases.TC_HighlightElement_013">
         <methods>
-          <include name="testCalendarSelectTestNaveen"/>
           <include name="tearDown"/>
+          <include name="testHighlightElement"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.STTA.testCases.TC_CalendarSelectTestNaveen_028 -->
+      </class> <!-- com.STTA.testCases.TC_HighlightElement_013 -->
     </classes>
   </test> <!--  Ecommerce Application Test (failed) -->
 </suite> <!-- Failed suite [SoftwareTestingTutorialsandAutomation] -->

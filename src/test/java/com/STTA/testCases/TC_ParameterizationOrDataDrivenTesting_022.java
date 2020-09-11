@@ -20,7 +20,7 @@ public class TC_ParameterizationOrDataDrivenTesting_022 extends BaseClass{
 	public void testDDTorParameterization() throws BiffException, IOException, InterruptedException
 	{
 		//Application Launch
-				String url = "http://only-testing-blog.blogspot.in/2013/11/new-test.html";
+				String url = "http://only-testing-blog.blogspot.com/2013/11/new-test.html";
 				driver.get(url);
 				logger.info("Application URL is Launched");
 				

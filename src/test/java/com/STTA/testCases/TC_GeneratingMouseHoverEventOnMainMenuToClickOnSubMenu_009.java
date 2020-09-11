@@ -18,7 +18,7 @@ public class TC_GeneratingMouseHoverEventOnMainMenuToClickOnSubMenu_009 extends 
 	{
 		//Application Launch
 		
-				String url = "http://only-testing-blog.blogspot.in/p/mouse-hover.html";
+				String url = "http://only-testing-blog.blogspot.com/p/mouse-hover.html";
 				driver.get(url);
 				logger.info("Application URL is Launched");
 				

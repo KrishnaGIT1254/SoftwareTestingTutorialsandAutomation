@@ -15,7 +15,7 @@ public class TC_HandlingMultipleBrowserWindows_010 extends BaseClass{
 	{
 		//Application Launch
 		
-				String url = "http://only-testing-blog.blogspot.in/2014/01/textbox.html";
+				String url = "http://only-testing-blog.blogspot.com/2014/01/textbox.html";
 				driver.get(url);
 				logger.info("Application URL is Launched");
 				
@@ -54,7 +54,7 @@ public class TC_HandlingMultipleBrowserWindows_010 extends BaseClass{
 			    //Switch to window2(child window) and performing actions on it.
 			    driver.switchTo().window(window2);
 			    driver.findElement(By.xpath("//input[@name='fname']")).sendKeys("My Name");
-			    driver.findElement(By.xpath("//input[@value='Bike']")).click();
+			   // driver.findElement(By.xpath("//input[@value='Bike']")).click();
 			    driver.findElement(By.xpath("//input[@value='Car']")).click();
 			    driver.findElement(By.xpath("//input[@value='Boat']")).click();
 			    driver.findElement(By.xpath("//input[@value='male']")).click();

@@ -17,7 +17,7 @@ public class TC_DiifBetweenSubmitAndClick_007 extends BaseClass{
 	public void testDiffBetClickAndSubmit() throws Exception
 	{
 		//Application Launch
-		String url = "http://only-testing-blog.blogspot.in/2014/05/form.html";
+		String url = "http://only-testing-blog.blogspot.com/2014/05/form.html";
 		driver.get(url);
 		logger.info("Application URL is Launched");
 		

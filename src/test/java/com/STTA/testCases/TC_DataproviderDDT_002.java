@@ -12,7 +12,7 @@ public class TC_DataproviderDDT_002 extends BaseClass{
 	 //Passed 2 string parameters as LoginCredentials() returns 2 parameters In object.
 	 @Test(dataProvider="LoginCredentials")
 	 public void LogIn_Test(String Usedid, String Pass) throws IOException{
-	   driver.get("http://only-testing-blog.blogspot.in/2014/05/login.html"); 
+	   driver.get("http://only-testing-blog.blogspot.com/2014/05/login.html"); 
 	   logger.info("Application URL is launched");
 	   
 	    String i = driver.getCurrentUrl();

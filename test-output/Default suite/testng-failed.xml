@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.STTA.testCases.TC_HandleAjaxAutoSuggestDropList_021">
+      <class name="com.STTA.testCases.TC_CaptureElementScreenshot_032">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="Search_Test"/>
+          <include name="testCaptureElementScreenshot"/>
         </methods>
-      </class> <!-- com.STTA.testCases.TC_HandleAjaxAutoSuggestDropList_021 -->
+      </class> <!-- com.STTA.testCases.TC_CaptureElementScreenshot_032 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
